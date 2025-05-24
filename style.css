@@ -4,8 +4,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-image: url(https://pin.it/7hf8RXqce
-)
+
+
 }
 
 
@@ -81,14 +81,15 @@ body {
 }
 
 body {
-    margin: auo;
+    margin: auto;
 }
 
 nav {
     display: block;
-    position: absolute;
+    position: fixed;
     top: 0;
     background-color: #585353;
+    width: 100%;
 }
 li:hover ul li{
     color: blue;
@@ -115,6 +116,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    width: 100%;
     overflow: hidden;
     background-color: rgb(63, 56, 56);
     padding-right: px;
@@ -166,4 +168,10 @@ li:hover ul li a:link {
 ul li ul{
    
     margin: 0px 0px 0px -53px;   
+}
+.header picture .rasm{
+font-size: 10px;
+}
+h1{
+        font-family: "Times New Roman", Times, serif;
 }
